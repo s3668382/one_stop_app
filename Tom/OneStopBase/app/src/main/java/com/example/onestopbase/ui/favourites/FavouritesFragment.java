@@ -13,7 +13,6 @@ import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProviders;
 
 import com.example.onestopbase.R;
-import com.example.onestopbase.ui.accounts.AccountsViewModel;
 
 public class FavouritesFragment extends Fragment {
 

@@ -10,7 +10,7 @@ public class TeamsViewModel extends ViewModel {
 
     public TeamsViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is teams fragment");
+        mText.setValue("This is the teams fragment");
     }
 
     public LiveData<String> getText() {

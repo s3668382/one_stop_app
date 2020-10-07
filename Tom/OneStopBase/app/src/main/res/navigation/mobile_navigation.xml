@@ -25,9 +25,9 @@
 
     <fragment
         android:id="@+id/nav_favourites"
-        android:name="com.example.onestopbase.ui.teams.TeamsFragment"
+        android:name="com.example.onestopbase.ui.favourites.FavouritesFragment"
         android:label="@string/title_favourite"
-        tools:layout="@layout/fragment_account" />
+        tools:layout="@layout/fragment_favourites" />
 
     <fragment
         android:id="@+id/nav_account"
