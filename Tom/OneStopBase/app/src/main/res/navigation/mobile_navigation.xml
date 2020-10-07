@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.onestopbase.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_players"
+        android:name="com.example.onestopbase.ui.players.PlayerFragment"
+        android:label="@string/menu_players"
+        tools:layout="@layout/fragment_players" />
+
+    <fragment
+        android:id="@+id/nav_teams"
+        android:name="com.example.onestopbase.ui.teams.TeamsFragment"
+        android:label="@string/menu_teams"
+        tools:layout="@layout/fragment_teams" />
+
+    <fragment
+        android:id="@+id/nav_favourites"
+        android:name="com.example.onestopbase.ui.teams.TeamsFragment"
+        android:label="@string/title_favourite"
+        tools:layout="@layout/fragment_account" />
+
+    <fragment
+        android:id="@+id/nav_account"
+        android:name="com.example.onestopbase.ui.accounts.AccountFragment"
+        android:label="@string/title_account"
+        tools:layout="@layout/fragment_account" />
+</navigation>
