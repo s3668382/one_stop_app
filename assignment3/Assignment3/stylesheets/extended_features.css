@@ -1,0 +1,46 @@
+.content-block{
+    background-color: #696969; 
+    margin-top: 300px;
+    padding-top: 50px;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-bottom: 300px;
+    margin-bottom:200px;
+}
+ H1{
+     text-align: center;
+     padding: 50px;
+}
+.title{
+    padding:0px;
+}
+ .featureDesign{
+     display: inline-block;
+     width:30%;
+     float: left;
+}
+ .featureDesign img{
+    width:100%;
+}
+ .featureBlurb{
+    display: inline-block;
+    width:65%;
+    padding-left: 10px;
+}
+ table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 15px;
+  }
+  
+  th {
+    text-align: left;
+  }
+  
+  table {
+    border-spacing: 5px;
+    width: 100%;
+  }

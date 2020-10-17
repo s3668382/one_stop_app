@@ -1,0 +1,36 @@
+.content-block{
+    background-color: #696969; 
+    margin-top: 300px;
+    padding-top: 50px;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-bottom: 300px;
+    margin-bottom:200px;
+}
+ H1{
+     text-align: center;
+}
+.title{
+    padding:0px;
+}
+ table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 15px;
+  }
+  
+  th {
+    text-align: left;
+  }
+  
+  table {
+    border-spacing: 5px;
+    width:100%;
+  }
+table img{
+  width:400px;
+}
+
