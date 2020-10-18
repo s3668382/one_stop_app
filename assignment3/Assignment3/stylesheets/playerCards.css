@@ -13,13 +13,20 @@
 .title{
     padding:0px;
 }
+
+.mvf{
+
+    padding-bottom: 200px;
+}
  .featureDesign{
      display: inline-block;
-     width:30%;
+     width:200px;
+     height: auto;
      float: left;
 }
  .featureDesign img{
-    width:100%;
+    width:200px;
+     height: auto;
 }
  .featureBlurb{
     display: inline-block;
