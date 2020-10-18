@@ -33,7 +33,7 @@
     width:65%;
     padding-left: 10px;
 }
- table, th, td {
+table, th, td {
     border: 1px solid black;
     border-collapse: collapse;
   }
@@ -42,11 +42,17 @@
     padding: 15px;
   }
   
-  th {
-    text-align: left;
-  }
+  
   
   table {
     border-spacing: 5px;
-    width: 100%;
+    width:100%
   }
+.picture {
+    width: 200px;
+     
+ }
+ .picture img{
+     width: 200px;
+     height: auto;
+ }
